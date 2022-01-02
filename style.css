@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+main {
+  width: 1296px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* main {
+  width: 1296px;
+  margin: 0 auto;
+} */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+  /* outline: #364fb9 2px solid; */
+  /* background-color: burlywood; */
+  /* margin-top: 1px; */
+  padding: 5px;
+  padding-top: 10px;
+  gap: 314px;
+  /* background-color: black; */
+  border-bottom: blue 1px solid;
+
+  position: fixed;
+  top: 0;
+  width: 1296px;
+}
+
+.middle {
+  margin-top: 10px;
+}
+
+.right {
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-left: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: #364fb9;
+}
+
+h1 {
+  color: #364fb9;
+  text-align: center;
+}
+
+.btn {
+  /* background-color: black; */
+  outline: blue 3px solid;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 80px;
+  text-align: center;
+  line-height: 160px;
+  animation: try 2.5s, grow 2s, type 3s forwards;
+
+  /* margin-left: 360px;
+  margin-top: ; */
+}
+
+@keyframes try {
+  from {
+    font-size: 30px;
+  }
+  to {
+    font-size: 80px;
+  }
+}
+
+@keyframes type {
+  from {
+    text-decoration: teal 2px dotted;
+  }
+  to {
+  }
+}
+
+@keyframes trynow {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: pink;
+  }
+}
+
+.sub-heading {
+  font-size: 30px;
+  animation: trynow 0.5s 2s infinite;
+}
+
+#aboutpage {
+  height: 80vh;
+}
+
+.hero-section {
+  text-align: center;
+  margin-top: ;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 130px;
+}
+
+.btn:hover {
+  outline: black 3px solid;
+}
+
+a:hover {
+  color: black;
+}
+
+#aboutpage {
+  padding-top: 60px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+nav a:hover {
+  border-bottom: 1px solid black;
+}
+
+/* nav a:visited {
+  border-bottom: 1px solid black;
+  color: black;
+} */
+
+.right-about {
+  text-align: center;
+}
+
+.right-about h1 {
+  font-size: 94px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.right-about p {
+  font-size: 30px;
+  font-family: "Poppins";
+}
+
+.testt {
+  color: black;
+  border-bottom: black 1px solid;
+}
+
+.yolo {
+  animation: slide 3s;
+  font-size: 60px;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.yolobaby {
+  animation: slidenow 3s;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+}
+
+@keyframes slidenow {
+  from {
+    margin-left: -100%;
+    width: -300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.kuch-kuch {
+  animation: trynow 0.5s infinite;
+}
+
+.main-about {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 100px;
+  gap: 10px;
+}
+
+#work {
+  margin-top: 150px;
+}
+
+.bottom {
+  width: 1296px;
+  margin: 0 auto;
+  background-color: orange;
+  height: 100px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  margin-right: 10px;
+}
+
+.fb,
+.insta,
+.twitter {
+  border: none;
+  outline: orange 4px solid;
+}
+
+/* .copyright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
